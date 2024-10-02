@@ -1,0 +1,39 @@
+html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BasicDashBoard</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Data Dashboard</h1>
+    </header>
+    <main>
+        <section>
+
+            <h2>Key Metrics</h2>
+            <div class="metric">
+                <pid="totalUsers">Total Users: 1000</p>
+                <label for="totalUsersInput">Total Users: </label>
+                <input type="number" id="totalUsersInput" value="">
+            </div>
+            <div class="metric">
+                <pid="totalSales">Total Sales: 500</p>
+                <label for="totalSalesInput">Total Sales: </label>
+                <input type="number" id="totalSalesInput" value="">
+            </div>
+        </section>
+
+        <button id="alertButton">Show Alert</button>
+    </main>
+
+    <footer>
+        <p>Copyright 2024 Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>
